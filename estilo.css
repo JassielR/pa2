@@ -67,7 +67,7 @@ a{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(imagenes/air-jordan-1-spider-man-across-the-spider-verse.webp) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/air-jordan-1-spider-man-across-the-spider-verse.webp) ;
 }
 
 #bordepalabra{

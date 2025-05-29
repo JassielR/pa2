@@ -40,6 +40,7 @@ p{
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify;
+    color: rgb(92, 2, 2);
     
 }
 
@@ -47,7 +48,6 @@ a{
     text-decoration: none;
     color: white;
 }
-
 
 /*cabecera*/
 
@@ -130,6 +130,7 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 #menu{
     display: flex;
     flex-direction: row;
@@ -169,7 +170,6 @@ a{
     justify-content: space-evenly;
     list-style: none;
     margin: 20px;
-
 }
 
 #menusicon{
@@ -189,15 +189,12 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: white;
     color: black;
-
 }
 
 #menuicon a:hover{
     transition: all 0.5s ease-in-out;
     background-color: black;
-    color: white;
-
- 
+    color: white; 
 }
 
 #menuiconb{
@@ -206,7 +203,6 @@ a{
     justify-content: center;
     list-style: none;
     margin: 20px;
-
 }
 
 #menusiconb{
@@ -225,19 +221,13 @@ a{
     justify-content: center;
     background-color: black;
     transition: all 0.5s ease-in-out;
-
 }
 
 #menuiconb a:hover{
     transition: all 0.3s ease-in-out;
-    background-color: rgb(128, 0, 0);
+    background-color: rgb(128, 2, 2);
     color: white;
- 
 }
-
-
-
-
 
 /*blog*/
 
@@ -267,8 +257,7 @@ a{
     position: relative;
 }
 
-#titulob{
-    
+#titulob{    
     width: 100%;
     text-align: center;
 }
@@ -288,6 +277,7 @@ a{
 #telaradius img{
     border-radius: 50%;
 }
+
 #telaradius p{
     margin: 0;
     color: rgb(128, 0, 0);
@@ -299,9 +289,6 @@ a{
     width: 300px;
     float: inline-start;
 }
-
-
-
 
 /*galeria*/
 
@@ -316,9 +303,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
     width: 1100px;
-    margin: 70px 0px;
-  
-        
+    margin: 70px 0px;       
 }
 
 #menuimagenes{
@@ -329,7 +314,6 @@ a{
     font-size: 10pt;
     height: 100%;
 }
-
 
 #imagen{
     display: flex;
@@ -348,23 +332,20 @@ a{
     filter: sepia(80%); 
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
-
 }
-
 
 /*videos*/
 
 #mainvi{
     padding: 0 5%;
-    margin: 0 5%;
-
+    margin: 0 20%;
 }
 
 #mainvideos{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 5%;
+    margin: 0 10%;
     padding: 0 10%;
 }
 
@@ -382,9 +363,4 @@ a{
     left: 0;
     width: 100%;
     height: 100%;
-
 }
-
-
-    
-

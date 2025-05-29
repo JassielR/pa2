@@ -1,0 +1,390 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    align-items: center;
+    font-family: fantasy;
+}
+
+h2{
+    color: black;
+    font-style: italic;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(92, 2, 2);
+}
+
+p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*cabecera*/
+
+#cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+}
+
+#cabeceratitulo{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#cabeceras{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#menucera{
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+
+#menucera :hover{
+    border-bottom: 0px;
+    transition: all 0.3;
+}
+
+#menucera >a{
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(128, 0, 0);
+    transition: all 0.2s ease-in-out;
+
+}
+
+#menucera a:hover{
+    background-color: rgb(128, 0, 0);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/*inicio*/
+
+#inicio{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(imagenes/air-jordan-1-spider-man-across-the-spider-verse.webp);
+}
+
+
+#proyecto{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+#menuprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+
+#menus{
+    margin: 0px 20px;
+    padding: 10px;
+    width: 109px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menus a{
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#menus a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.6s ease-in-out;
+}
+
+#menuicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 20px;
+
+}
+
+#menusicon{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+#menusicon>a{
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    color: black;
+
+}
+
+#menuicon a:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    color: white;
+
+ 
+}
+
+#menuiconb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;
+
+}
+
+#menusiconb{
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+#menusiconb>a{
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#menuiconb a:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(128, 0, 0);
+    color: white;
+ 
+}
+
+
+
+
+
+/*blog*/
+
+#iniciob{
+    background-color: white;
+}
+
+#cuerpob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#lamancha{
+    width: 70%;
+}
+
+#lamancha img{
+    width: 100%;
+}
+
+#cuerposb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    position: relative;
+}
+
+#titulob{
+    
+    width: 100%;
+    text-align: center;
+}
+
+#telaradius{
+    border-radius: 50%;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#telaradius img{
+    border-radius: 50%;
+}
+#telaradius p{
+    margin: 0;
+    color: rgb(128, 0, 0);
+    font-size: 15px;
+    text-align: center;
+}
+
+.imagenfloat{
+    width: 300px;
+    float: inline-start;
+}
+
+
+
+
+/*galeria*/
+
+#maingaleria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1100px;
+    margin: 70px 0px;
+  
+        
+}
+
+#menuimagenes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 10pt;
+    height: 100%;
+}
+
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.imagenhover{
+    width: 300px;
+    box-shadow: 5px 5px 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagenhover:hover{
+    filter: sepia(80%); 
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+/*videos*/
+
+#mainvi{
+    padding: 0 5%;
+    margin: 0 5%;
+
+}
+
+#mainvideos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5%;
+    padding: 0 10%;
+}
+
+.video-responsive{   
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    box-shadow: 8px 8px 5px;
+}
+
+.video-responsive iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+    
+

@@ -1,16 +1,23 @@
-body{
+:root {
+  --color-title: #ffff;
+  --color-accent: #bd250b;
+  --color-menu: #5c0202;
+  --color-proj: #dd290a;
+}
+
+body {
     margin: 0px;
 }
 
-h1{
-    color: white;
+h1 {
+    color: var(--color-title);
     font-size: 100px;
     align-items: center;
     font-family: fantasy;
 }
 
-h2{
-    color: black;
+h2 {
+    color: var(--color-bg);
     font-style: italic;
     font-size: 40px;
     margin: 0;
@@ -19,7 +26,7 @@ h2{
 }
 
 h3{
-    color: white;
+    color: var(--color-title);
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -33,20 +40,124 @@ h5{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     font-style: italic;
-    color: rgb(92, 2, 2);
+    color: var(--color-menu);
 }
 
 p{
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify;
-    color: rgb(92, 2, 2);
+    color: var(--color-menu);
     
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: var(--color-title);
+}
+
+/*inicio*/
+
+#inicio{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(imagenes/air-jordan-1-spider-man-across-the-spider-verse.webp) ;
+}
+
+#bordepalabra{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#proyecto{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#project{
+    color: var(--color-proj);
+}
+
+#menuprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+
+.menus{
+    margin: 0px 20px;
+    padding: 10px;
+    width: 109px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menus a{
+    padding: 15px;
+    border-radius: 30px;
+    color: var(--color-title);
+    transition: all 0.4s ease-in-out;
+}
+
+.menus a:hover{
+    background-color: var(--color-accent);
+    transition: all 0.3s ease-in-out;
+}
+
+#menuicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+}
+
+.menusicon{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.menusicon>a{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color-title);
+    color: var(--color-accent);
+}
+
+#menuicon a:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: var(--color-accent);
+    color: white; 
 }
 
 /*cabecera*/
@@ -91,111 +202,18 @@ a{
 #menucera >a{
     padding: 10px;
     border-radius: 30px;
-    color: rgb(128, 0, 0);
+    color: var(--color-menu);
     transition: all 0.2s ease-in-out;
 
 }
 
 #menucera a:hover{
-    background-color: rgb(128, 0, 0);
+    background-color: var(--color-menu);
     color: white;
     transition: all 0.3s ease-in-out;
 }
 
-/*inicio*/
-
-#inicio{
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(imagenes/air-jordan-1-spider-man-across-the-spider-verse.webp);
-}
-
-
-#proyecto{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-}
-
-#menuprincipal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    font-size: 10pt;
-    height: 100%;
-}
-
-#menus{
-    margin: 0px 20px;
-    padding: 10px;
-    width: 109px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#menus a{
-    padding: 15px;
-    border-radius: 30px;
-    transition: all 0.3s ease-in-out;
-}
-
-#menus a:hover{
-    background-color: white;
-    color: black;
-    transition: all 0.6s ease-in-out;
-}
-
-#menuicon{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    list-style: none;
-    margin: 20px;
-}
-
-#menusicon{
-    margin: 20px;
-    display: flex;
-    padding: 10px;
-}
-
-#menusicon>a{
-    padding: 10px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-    color: black;
-}
-
-#menuicon a:hover{
-    transition: all 0.5s ease-in-out;
-    background-color: black;
-    color: white; 
-}
+/*redes*/
 
 #menuiconb{
     display: flex;
@@ -225,8 +243,8 @@ a{
 
 #menuiconb a:hover{
     transition: all 0.3s ease-in-out;
-    background-color: rgb(128, 2, 2);
-    color: white;
+    background-color: var(--color-accent);
+    color: var(--color-title);
 }
 
 /*blog*/
@@ -280,7 +298,7 @@ a{
 
 #telaradius p{
     margin: 0;
-    color: rgb(128, 0, 0);
+    color: var(--color-menu);
     font-size: 15px;
     text-align: center;
 }
